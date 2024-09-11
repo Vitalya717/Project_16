@@ -36,8 +36,6 @@ public class Ticket implements Comparable<Ticket>{
         return timeTo;
     }
 
-
-    // Вспомогательные методы для корректной работы equals
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
