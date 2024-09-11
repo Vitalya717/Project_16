@@ -150,6 +150,7 @@ public class AviaSoulsTest {
         Ticket[] actual = avia.searchAndSortBy("Москва \"Домодедово\" ", "Саратов \"Гагарин\" ", ticketTime);
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void writeDownTheHashCode() {
 
